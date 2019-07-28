@@ -13,7 +13,6 @@ import android.view.ViewGroup;
  */
 public class Fragment_Settings extends Fragment {
 
-
     public Fragment_Settings() {
         // Required empty public constructor
     }
