@@ -6,9 +6,23 @@
     tools:context=".Fragment_MyActivity">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/activityAppBar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="My Activity"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"/>
+    </android.support.design.widget.AppBarLayout>
 
 </FrameLayout>
