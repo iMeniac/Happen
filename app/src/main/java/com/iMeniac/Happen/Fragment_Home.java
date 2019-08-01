@@ -29,7 +29,7 @@ public class Fragment_Home extends Fragment {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment__home, container, false);
 
-        toolbar = v.findViewById(R.id.toolbar);
+        toolbar = v.findViewById(R.id.toolbarHome);
         //AppCompatActivity activity = (AppCompatActivity) getActivity();//This is a fragment so we need appcompact
         //activity.setSupportActionBar(toolbar);
         //toolbar.setTitle("Happen");

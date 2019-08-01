@@ -6,12 +6,13 @@
     tools:context=".Fragment_MyActivity">
 
     <!-- TODO: Update blank fragment layout -->
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/activityAppBar"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarMyActivity"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         >
 
         <TextView
@@ -23,6 +24,6 @@
             android:layout_margin="8dp"
             android:textColor="@color/colorWhite"
             android:textSize="22sp"/>
-    </android.support.design.widget.AppBarLayout>
+    </android.support.v7.widget.Toolbar>
 
 </FrameLayout>
