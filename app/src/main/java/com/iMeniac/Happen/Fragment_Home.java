@@ -30,11 +30,7 @@ public class Fragment_Home extends Fragment {
         View v= inflater.inflate(R.layout.fragment__home, container, false);
 
         toolbar = v.findViewById(R.id.toolbarHome);
-        //AppCompatActivity activity = (AppCompatActivity) getActivity();//This is a fragment so we need appcompact
-        //activity.setSupportActionBar(toolbar);
-        //toolbar.setTitle("Happen");
         toolbar.inflateMenu(R.menu.menu_home_toolbar);
-        //activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true); // Back Button
         return v;
     }
 
